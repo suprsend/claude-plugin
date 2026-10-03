@@ -1,0 +1,19 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: JSON files parse
+        run: for f in .claude-plugin/plugin.json .claude-plugin/marketplace.json .mcp.json; do jq empty "$f"; done
+      - name: claude plugin validate
+        run: npx -y @anthropic-ai/claude-code plugin validate .

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "suprsend": {
+      "type": "http",
+      "url": "https://mcp.suprsend.com/mcp"
+    }
+  }
+}
