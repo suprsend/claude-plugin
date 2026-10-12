@@ -9,7 +9,7 @@ This repo is the SuprSend plugin for Claude (chat on the web, desktop, and mobil
 | `.claude-plugin/plugin.json`      | The plugin manifest (`name: suprsend`). The version is set here only, not in `marketplace.json`.                           |
 | `.claude-plugin/marketplace.json` | The marketplace `suprsend` with one plugin, `source: "./"`.                                                                |
 | `.mcp.json`                       | The hosted server, `{"type": "http", "url": "https://mcp.suprsend.com/mcp"}`. No auth fields: Claude finds OAuth itself.   |
-| `skills/suprsend/SKILL.md`        | The one skill. The detailed skills stay on the server (`skill://` resources and `docs.get_skill`); do not copy them here.                          |
+| `skills/suprsend/SKILL.md`        | The one skill. The detailed skills stay on the server (`skill://` resources and `docs_get_skill`); do not copy them here.                          |
 
 ## Rules
 

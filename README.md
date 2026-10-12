@@ -9,7 +9,7 @@ For VS Code, GitHub Copilot, Cursor, ChatGPT and Codex, Kiro, and the other [Age
 | Part           | What it does                                                                                                                                                                                                                            |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **MCP server** | `https://mcp.suprsend.com/mcp`, hosted by SuprSend: tools for users, objects, tenants, lists, preferences, events, schemas, workflows, templates, translations, messages, and delivery data (read-only SQL). Nothing runs on your computer. |
-| **Skill**      | `suprsend`: when to use which tool, and to read the detailed SuprSend skill (workflow JSON, template content, SQL tables) from the server, directly or with `docs.get_skill`, before Claude writes one.                                                  |
+| **Skill**      | `suprsend`: when to use which tool, and to read the detailed SuprSend skill (workflow JSON, template content, SQL tables) from the server, directly or with `docs_get_skill`, before Claude writes one.                                                  |
 
 You need no API key: you sign in with your SuprSend account (OAuth). Admins get every tool; members get the read-only tools. Claude sees only the workspaces that your account can open.
 
