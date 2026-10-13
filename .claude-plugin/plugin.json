@@ -10,5 +10,6 @@
   "homepage": "https://github.com/suprsend/claude-plugin",
   "repository": "https://github.com/suprsend/claude-plugin",
   "license": "MIT",
+  "privacyPolicyUrl": "https://www.suprsend.com/privacy",
   "keywords": ["suprsend", "notifications", "workflows", "templates", "mcp"]
 }
